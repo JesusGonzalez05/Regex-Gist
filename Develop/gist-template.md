@@ -1,11 +1,12 @@
 # Regular Expressions (Regex)
 
-Coding languges give developers the opportunity to check for a certain string of characters or numbers, many times you'll utilize the methods inside these languges to do so. To name a couple, Javascript allows it users to take advantage of the
-.startsWith() .endsWith() methods to locate a particular string(s) in a series of strings and return a value that matches the associated value passed into one or more of these functions. Althought these methods are useful regular expresions (or regex for short) can help us widen or narrow the scope we are searching for.  
+Coding languges give developers the opportunity to check for a certain string of characters or numbers, many times you'll utilize the methods inside these languges to do so. Javascript allows it users to take advantage of methods such as `.startsWith()` `.endsWith()` to locate a particular string(s) in a series and return a value that matches that passed into one or more of these methods. Althought useful, regular expresions (or regex for short) can help us widen or narrow the scope we're searching for.  
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this Github Gist we will be reviewing the functionality of a regex, focusing primarily on matching hex values. <br>
+
+`/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` <br>
 
 ## Table of Contents
 
@@ -24,6 +25,11 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+The characters `^` and `$` are considered anchors. The `^` anchor signifies a string that begins with the characters that follow it, The `$` anchor signifies a string that ends with the characters that precedes it. <br>
+
+`/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` <br>
+
+In our regex above we see that the `^` anchor is followed by a `#` value signifying the character follwing (or the first character of the string) must be a `#`.
 
 ### Quantifiers
 
