@@ -55,5 +55,10 @@ Similarly before the `$` we notice a `{3}` and a `{6}` (we will review these in 
 ### Look-ahead and Look-behind
 
 ## Author
+My name is Jesus Gonzalez I'm a Junior Software Engineer with a background in Retail Management. Trained at the University of Central Florida Coding Bootcamp, acquired skills in JavaScript, CSS, React.js, and responsive web design. Ambitious and innovative problem-solver passionate about continuous learning, collaboration, and developing applications, with a focus on a mobile-first design and development.
+
+Check out my progress and watch me grow!
+
+[Jesus Gonzalez](https://github.com/JesusGonzalez05)
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
