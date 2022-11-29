@@ -29,7 +29,10 @@ The characters `^` and `$` are considered anchors. The `^` anchor signifies a st
 
 `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` <br>
 
-In our regex above we see that the `^` anchor is followed by a `#` value signifying the character follwing (or the first character of the string) must be a `#`.
+In our regex above we see that the `^` anchor is followed by a `#` value signifying the character follwing (or the first character of the string) must be
+ a `#`.
+
+Similarly before the `$` we notice a `{3}` and a `{6}` (we will review these in futher detail later) indicating the length of the string must either be a 3 or 6 digits long.
 
 ### Quantifiers
 
