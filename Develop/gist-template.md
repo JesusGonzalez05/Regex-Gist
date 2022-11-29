@@ -1,5 +1,7 @@
-# Title (replace with your title)
+# Regular Expressions (Regex)
 
+Coding languges give developers the opportunity to check for a certain string of characters or numbers, many times you'll utilize the methods inside these languges to do so. To name a couple  Javascript as an example allows it users to take advantage of the
+.startsWith() .endsWith() methods to locate a particular string(s) in a series of strings and return a value that matches eith the associated value passed into one or more of these functions 
 Introductory paragraph (replace this with your text)
 
 ## Summary
