@@ -59,17 +59,10 @@ Character classes matches any character inside the brackets, in our hex regex we
 Flags allow for functionality like global searching and case-insensitive searching, flags can be used separately or together in any order. There are no flags present in our regex however since our regex begins with `^` and ends with `$` we could pair it with the `m` flag (The `m` flag only pairs with the `^` and `$` characters). The `m` flag allows `^` and `$` to match multiline characters.In the multiline mode they match not only at the beginning and the end of the string, but also at start/end of line.
 
 ### Grouping and Capturing
-The group refered to as the `()` will group multiple components together - creating a capture group to find a string. In the case of our regex the `()` are grouping `[a-f0-9]{3}` and `[a-f0-9]{6}`, to locate the hex value.
+The group refered to as the `()` will group multiple components together - creating a capture group to find a string. In the case of our regex the `()` are grouping `[a-f0-9]{3}` and `[a-f0-9]{6}`, to locate the hex value which is either 3 or 6 character long.
 
 ### Bracket Expressions
-Bracket expresions `[]` allow us to match any character in the square brackets.
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+Bracket expresions `[]` allow us to match any character in the square brackets. in our regex `[a-f0-9]` is displayed in a bracket expression, allowing us to match any character a-f and 0-9.
 
 ## Author
 My name is Jesus Gonzalez I'm a Junior Software Engineer with a background in Retail Management. Trained at the University of Central Florida Coding Bootcamp, acquired skills in JavaScript, CSS, React.js, and responsive web design. Ambitious and innovative problem-solver passionate about continuous learning, collaboration, and developing applications, with a focus on a mobile-first design and development.
