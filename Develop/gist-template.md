@@ -33,17 +33,27 @@ In our regex above we see that the `^` anchor is followed by a `#` value signify
 
 Similarly before the `$` we notice a `{3}` and a `{6}` (we will review these in futher detail later) indicating the length of the string must either be a 3 or 6 digits long.
 
+
+
 ### Quantifiers
 Similarly to their name quantifiers will determine a character, group, or a character class that must be present in the string for a match to be found. In our hex regex the `?` and `{n}` are going to be our quantifiers. 
 
 The `?` character allows us to match something zero or one time (similar to a conditional), in our regex the `?` character is perceding the `#` character meaning it will look for a value containing a number or not.
 
 The `{n}` character (shown in our regex expression as `{3}` and `{6}` indicates the exact character caount `{n}` times. In our regex, `[a-f0-9]{6}` would indicate any 6 character length string or numerical value and `[a-f0-9]{3}` would indicate any 3 character length string or numerical value.
+
+
+
 ### OR Operator
 As discussed previously our regex is searching for a string or value either `{3}` or `{6}` characters long, but how are we able to search for both lengths? 
 
 The OR operator or as depicted in our regex `|` allows us to join the two expressions `[a-f0-9]{6}` and`[a-f0-9]{3}` and search for both types of string or values by placing them in a set or parenthesis and seperating then with a `|`.
+
+
+
 ### Character Classes
+Character classes matches any character inside the brackets, in our hex regex we have a character class that is repeated twice `[a-f0-9]`. Inside the character class are two ranges (you are able to search by one or more ranges) attached a-f and 0-9, meaning it will match any character a-f and 0-9 this will allow us to search for a string in the hex value format.
+
 
 ### Flags
 
