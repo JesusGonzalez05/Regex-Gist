@@ -60,8 +60,9 @@ Flags allow for functionality like global searching and case-insensitive searchi
 
 ### Grouping and Capturing
 The group refered to as the `()` will group multiple components together - creating a capture group to find a string. In the case of our regex the `()` are grouping `[a-f0-9]{3}` and `[a-f0-9]{6}`, to locate the hex value.
-### Bracket Expressions
 
+### Bracket Expressions
+Bracket expresions `[]` allow us to match any character in the square brackets.
 ### Greedy and Lazy Match
 
 ### Boundaries
