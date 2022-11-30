@@ -56,6 +56,7 @@ Character classes matches any character inside the brackets, in our hex regex we
 
 
 ### Flags
+Flags allow for functionality like global searching and case-insensitive searching, flags can be used separately or together in any order. There are no flags present in our regex however since our regex begins with `^` and ends with `$` we could pair it with the `m` flag (The `m` flag only pairs with the `^` and `$` characters). The `m` flag allows `^` and `$` to match multiline characters.In the multiline mode they match not only at the beginning and the end of the string, but also at start/end of line.
 
 ### Grouping and Capturing
 
